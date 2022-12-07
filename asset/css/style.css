@@ -1,0 +1,221 @@
+*{padding: 0;margin: 0;}
+body
+{
+    font-family: 'Exo 2', sans-serif  !important;
+    background-color: #f8f1f1;
+}
+.header {
+    background: white;
+}
+.container{
+    max-width: 1240px;
+}
+.logo img {
+    height: 72px;
+}
+
+.search-box {
+    margin-top: 18px;
+}
+
+span.uk-margin-small-right.uk-icon {
+    margin-right: 0px !important;
+}
+
+.input-group.mb-3 input {
+    border-radius: 0px !important;
+}
+
+a#basic-addon1 {
+    border-radius: 0px !important;
+    background: orange;
+    color: white;
+    border: 0px;
+}
+
+.number {
+    margin-top: 21px;
+}
+.login-cart {
+    margin-top: 18px;
+}
+
+.login-cart a {
+    text-decoration: none;
+    color: black;
+}
+button.position-relative {
+    border: none;
+    background: no-repeat;
+}
+
+span.position-absolute.top-0.start-100.translate-middle.badge.rounded-pill.bg-warning {
+    font-size: 10px;
+    left: 20px !important;
+}
+
+span.total_price {
+    padding-left: 13px;
+}
+
+button.position-relative {
+    margin-left: 19px;
+}
+.uk-offcanvas-bar.uk-offcanvas-bar-animation.uk-offcanvas-slide {
+    padding: 0px !important;
+    background: white;
+    color: black;
+}
+
+button.uk-offcanvas-close.uk-icon.uk-close {
+    color: black;
+}
+#heading-cart
+{
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+}
+.categoreys {
+    background: orange;
+    padding: 6px 9px;
+}
+span#right-icon {
+    float: right;
+    margin-top: 4px;
+}
+
+.categoreys b {
+    text-transform: uppercase;
+    padding-left: 10px;
+} 
+.logo-header {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+/* .menu-bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px 0px;
+    border-right: 1px solid lightgray;
+    margin-left: 0px;
+}
+
+.menu-bar ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 26px;
+    transition: .3s;
+}
+.menu-bar ul li:last-child{
+    border-right: 1px solid lightgray;
+}
+.menu-bar ul li:first-child{
+    /* border-left: 1px solid lightgray; */
+
+/* .menu-bar ul li a:hover {
+    background: orange;
+    color: white;
+} */
+
+
+.menu-bar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px 15px;
+    /* border: 1px solid black; */
+    border-right: 1px solid lightgray;
+    margin: 0px !important;
+    width: auto !important;
+    margin:-4px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 0px;
+    /* border-right: 1px solid lightgray; */
+}
+
+.menu-bar ul {
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.menu-bar ul li:first-child
+{
+    border-left: 1px solid lightgray;
+}
+
+.menu-bar ul li:nth-child(2)
+{
+    /* background-color: red; */
+}
+.cat-s {
+    background: white;
+    padding-left: 8px;
+    padding: 13px 10px;
+    border-bottom: 1px solid lightgray;
+}
+.cat-s a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.cat-s {
+    position: relative;
+}
+
+.cat-drop li {
+    list-style: none;
+    padding: 13px 9px;
+    border-bottom: 1px solid lightgray;
+}
+
+.cat-drop {
+    position: absolute;
+    left: 287px;
+    width: 100%;
+    background: white;
+    top: 0;
+    /* padding: 12px 14px; */
+    /* border-bottom: 1px solid lightgray; */
+    transition: .3s;
+    transform: translate(0px, 50px);
+    opacity: 0;
+    visibility: hidden;
+}
+.cat-drop-2 {
+    position: absolute;
+    left: 287px;
+    width: 100%;
+    background: white;
+    top: 0;
+    /* padding: 12px 14px; */
+    /* border-bottom: 1px solid lightgray; */
+    transition: .3s;
+    transform: translate(0px, 50px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.cat-s:hover>.cat-drop
+{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    visibility: visible;
+}
+.cat-drop:hover>.cat-drop-2
+{
+    transform: translate(0px, 0px);
+    opacity: 1;
+    visibility: visible;
+}
+.cat-drop {
+    z-index: 9999;
+}
