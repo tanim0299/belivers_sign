@@ -16,6 +16,8 @@
 </head>
 <body>
    
+    <div class="">
+        <div class="uk-card uk-card-default uk-card-body uk-position-z-index" uk-sticky="start: 200; offset: 80; animation: uk-animation-slide-top">
     <div class="header">
         <div class="container">
             <div class="row" id="top-head">
@@ -63,6 +65,45 @@
                                     </div>
                                 </div>
 
+                                <div class="cart-body">
+                                    <div class="cart-product-s">
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="col-1">
+                                                    <a href="#" class="product-cart-del">x</a> 
+                                                </div>
+                                                <div class="col-3">
+                                                    <div class="product-cart-image">
+                                                        <img src="asset/images/product-image/1.jpg" alt="" class="img-fluid">
+                                                    </div>
+                                                </div>
+                                                <div class="col-8">
+                                                    <div class="prdouct-cart-details">
+                                                        <span class="product-cart-name">Shawl for Women (Large)- 55</span><br>
+                                                        <span class="product-cart-quantity">1</span> <span>X</span>
+                                                        <span class="product-cart-price">$ 2990/-</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="cart-footer">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <b>Sub Total :</b>
+                                        </div>
+                                        <div class="col-6" style="text-align: right;">
+                                            <b>2990/-</b>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid gap-2">
+                                        <a href="#" class="btn btn-secondary" type="button">View Cart</a>
+                                        <a href="#" class="btn btn-dark" type="button">Checkout</a>
+                                      </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -94,6 +135,9 @@
         
 
     </div>
+
+</div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-12">
@@ -108,14 +152,14 @@
                             <li>
                                 <a href="#">
                                 <div class="categorey-single">
-                                    <b>Combo Offer</b> <span id="right-icon" uk-icon="chevron-right"></span>
+                                    <b>Combo Offers</b> <span id="right-icon" uk-icon="chevron-right"></span>
                                 </div>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
                                 <div class="categorey-single">
-                                    <b>Combo Offer</b> <span id="right-icon" uk-icon="chevron-right"></span>
+                                    <b>Combo Offers</b> <span id="right-icon" uk-icon="chevron-right"></span>
                                 </div>
                                 </a>
                             </li>
@@ -144,7 +188,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="cat-s">
+                    <!-- <div class="cat-s">
                         <a href="#">
                         <div class="categorey-single">
                             <b>Combo Offer</b> <span id="right-icon" uk-icon="chevron-right"></span>
@@ -171,7 +215,7 @@
                             <b>Combo Offer</b> <span id="right-icon" uk-icon="chevron-right"></span>
                         </div>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-lg-9 col-md-9 col-12">
@@ -221,6 +265,112 @@
               <div class="tab-content" id="pills-tabContent">
 
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-6">
+
+                            <div class="product-single-box">
+                                <div class="prod-image">
+                                    <a href="#">
+                                        <img src="asset/images/product-image/1.jpg" alt="" class="img-fluid">
+                                        <img src="asset/images/product-image/2.jpg" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="prod-name">
+                                    <a href="#"><b>Shawl for Women (Large)- 55</b></a>
+                                </div>
+                                <div class="prod-price">
+                                    <span>৳ 2990/-</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <a href="#" class="cart-btn-l">
+                                        <span class="cart-t">Add To Cart</span>
+                                        <span uk-icon="cart" id="cart-i"></span>
+                                    </a>
+                                </div>
+                                <div class="badge badge-danger bg-danger" id="stock-out">Stock Out</div>
+                                
+                            </div>
+
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+
+                            <div class="product-single-box">
+                                <div class="prod-image">
+                                    <a href="#">
+                                        <img src="asset/images/product-image/1.jpg" alt="" class="img-fluid">
+                                        <img src="asset/images/product-image/2.jpg" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="prod-name">
+                                    <a href="#"><b>Shawl for Women (Large)- 54</b></a>
+                                </div>
+                                <div class="prod-price">
+                                    <span>৳ 2990/-</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <a href="#" class="cart-btn-l">
+                                        <span class="cart-t">Add To Cart</span>
+                                        <span uk-icon="cart" id="cart-i"></span>
+                                    </a>
+                                </div>
+                                <div class="badge badge-danger bg-warning" id="offer">15%</div>
+                                <div class="badge badge-danger bg-success" id="new">New</div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+
+                            <div class="product-single-box">
+                                <div class="prod-image">
+                                    <a href="#">
+                                        <img src="asset/images/product-image/1.jpg" alt="" class="img-fluid">
+                                        <img src="asset/images/product-image/2.jpg" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="prod-name">
+                                    <a href="#"><b>Shawl for Women (Large)- 54</b></a>
+                                </div>
+                                <div class="prod-price">
+                                    <span>৳ 2990/-</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <a href="#" class="cart-btn-l">
+                                        <span class="cart-t">Add To Cart</span>
+                                        <span uk-icon="cart" id="cart-i"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+
+                            <div class="product-single-box">
+                                <div class="prod-image">
+                                    <a href="#">
+                                        <img src="asset/images/product-image/1.jpg" alt="" class="img-fluid">
+                                        <img src="asset/images/product-image/2.jpg" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="prod-name">
+                                    <a href="#"><b>Shawl for Women (Large)- 54</b></a>
+                                </div>
+                                <div class="prod-price">
+                                    <span>৳ 2990/-</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <a href="#" class="cart-btn-l">
+                                        <span class="cart-t">Add To Cart</span>
+                                        <span uk-icon="cart" id="cart-i"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+
                     <div class="row">
                         <div class="col-lg-2 col-md-3 col-6">
 
@@ -319,13 +469,109 @@
 
                         </div>
                     </div>
-                </div>
-
-                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
 
                 </div>
 
                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-6">
+
+                            <div class="product-single-box">
+                                <div class="prod-image">
+                                    <a href="#">
+                                        <img src="asset/images/product-image/1.jpg" alt="" class="img-fluid">
+                                        <img src="asset/images/product-image/2.jpg" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="prod-name">
+                                    <a href="#"><b>Shawl for Women (Large)- 54</b></a>
+                                </div>
+                                <div class="prod-price">
+                                    <span>৳ 2990/-</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <a href="#" class="cart-btn-l">
+                                        <span class="cart-t">Add To Cart</span>
+                                        <span uk-icon="cart" id="cart-i"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+
+                            <div class="product-single-box">
+                                <div class="prod-image">
+                                    <a href="#">
+                                        <img src="asset/images/product-image/1.jpg" alt="" class="img-fluid">
+                                        <img src="asset/images/product-image/2.jpg" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="prod-name">
+                                    <a href="#"><b>Shawl for Women (Large)- 54</b></a>
+                                </div>
+                                <div class="prod-price">
+                                    <span>৳ 2990/-</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <a href="#" class="cart-btn-l">
+                                        <span class="cart-t">Add To Cart</span>
+                                        <span uk-icon="cart" id="cart-i"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+
+                            <div class="product-single-box">
+                                <div class="prod-image">
+                                    <a href="#">
+                                        <img src="asset/images/product-image/1.jpg" alt="" class="img-fluid">
+                                        <img src="asset/images/product-image/2.jpg" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="prod-name">
+                                    <a href="#"><b>Shawl for Women (Large)- 54</b></a>
+                                </div>
+                                <div class="prod-price">
+                                    <span>৳ 2990/-</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <a href="#" class="cart-btn-l">
+                                        <span class="cart-t">Add To Cart</span>
+                                        <span uk-icon="cart" id="cart-i"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+
+                            <div class="product-single-box">
+                                <div class="prod-image">
+                                    <a href="#">
+                                        <img src="asset/images/product-image/1.jpg" alt="" class="img-fluid">
+                                        <img src="asset/images/product-image/2.jpg" alt="" class="img-fluid">
+                                    </a>
+                                </div>
+                                <div class="prod-name">
+                                    <a href="#"><b>Shawl for Women (Large)- 54</b></a>
+                                </div>
+                                <div class="prod-price">
+                                    <span>৳ 2990/-</span>
+                                </div>
+                                <div class="cart-btn">
+                                    <a href="#" class="cart-btn-l">
+                                        <span class="cart-t">Add To Cart</span>
+                                        <span uk-icon="cart" id="cart-i"></span>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
 
                 </div>
               </div>

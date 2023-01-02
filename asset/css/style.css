@@ -4,6 +4,12 @@ body
     font-family: 'Exo 2', sans-serif  !important;
     background-color: #f8f1f1;
 }
+a{
+    text-decoration: none !important;
+}
+.btn{
+    border-radius: 0px !important;
+}
 .header {
     background: white;
 }
@@ -289,7 +295,7 @@ ul#pills-tab {
 
 .cart-btn a {
     position: relative;
-    overflow: hidden;
+    overflow: hidden !important;
 }
 span.cart-t {
     position: absolute;
@@ -302,19 +308,96 @@ span#cart-i {
     left: 50px;
     transition: .3s;
     transform: translate(0px, 34px);
+    opacity: 0;
 }
 
 a.cart-btn-l {
     padding: 8px 62px;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 a.cart-btn-l:hover>span#cart-i
 {
     transform: translate(0px, 0px);
+    opacity: 1;
 }
 a.cart-btn-l:hover>span.cart-t
 {
     transform: translate(0px, -30px);
+    opacity: 0;
+}
+.product-single-box {
+    position: relative;
+}
+
+div#stock-out {
+    position: absolute;
+    top: 12px;
+    left: 0px;
+}
+
+div#offer {
+    position: absolute;
+    top: 38px;
+    left: 0;
+}
+
+div#new {
+    position: absolute;
+    top: 11px;
+    right: 0;
+}
+.uk-card.uk-card-default.uk-card-body.uk-position-z-index.uk-sticky {
+    padding: 0px !important;    
+}
+.uk-card.uk-card-default.uk-card-body.uk-text-center.uk-position-z-index.uk-sticky.uk-active.uk-sticky-fixed.uk-sticky-below {
+    top: 0px !important;
+}
+.uk-card.uk-card-default.uk-card-body.uk-text-center.uk-position-z-index.uk-sticky.uk-active.uk-sticky-fixed {
+    top: 0px !important;
+}
+.uk-card.uk-card-default.uk-card-body.uk-position-z-index.uk-sticky.uk-active.uk-sticky-below.uk-sticky-fixed {
+    top: 0px !important;
+}
+.uk-card.uk-card-default.uk-card-body.uk-position-z-index.uk-sticky.uk-active.uk-sticky-below.uk-sticky-fixed {
+    z-index: 9999999999;
+}
+
+.uk-offcanvas-bar.uk-offcanvas-bar-animation.uk-offcanvas-slide {
+    /* overflow: hidden; */
+}   
+.uk-offcanvas-bar.uk-offcanvas-bar-animation.uk-offcanvas-slide {
+    color: black !important;
+}
+
+.prdouct-cart-details span {
+    color: black !important;
+    font-size: 14px;
+}
+
+span.product-cart-name {
+}
+
+span.product-cart-price {
+    color: #ffaa0f !important;
+}
+a.product-cart-del {color: red !important;transition: .3s;text-decoration: none !important;}
+
+a.product-cart-del:hover {
+    background: white;
+}
+
+.cart-product-s {
+    background: #f9f0f0;
+    border-bottom: 1px solid lightgray;
+    padding: 4px;
+}
+.cart-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid lightgray;
+    padding-top: 9px;
 }
