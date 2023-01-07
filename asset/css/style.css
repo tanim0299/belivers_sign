@@ -401,3 +401,72 @@ a.product-cart-del:hover {
     border-top: 2px solid lightgray;
     padding-top: 9px;
 }
+.footer-section {
+    background: #2e2e2e;
+    padding: 20px 0px;
+    color: white;
+}
+
+.footer-logo img {
+    max-width: 45%;
+}
+.footer-div-title {
+    margin-bottom: 15px;
+}
+
+.contact-details li {
+    list-style: none;
+}
+.follow-details li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px 6px;
+    background: black;
+    border-radius: 5px;
+}
+
+.follow-details li:first-child {
+    background: #6363e8;
+    /* border-radius: 5px; */
+}
+
+.follow-details li:nth-child(2) {
+    background: #22b022;
+}
+
+.follow-details li:nth-child(3) {
+    background: linear-gradient(7deg, #2e1059, #ee0606);
+}
+
+.follow-details li:last-child {
+    background: #3b3ba5;
+}
+
+.follow-details li a {
+    text-decoration: none;
+    color: white;
+}
+.useful-links li {
+    list-style: none;
+    padding: 5px 0px;
+}
+
+.useful-links li a {
+    text-decoration: none;
+    color: white;
+}
+.pay-method-image.text-right img {
+    /* text-align: right !important; */
+    max-width: 47%;
+}
+
+.pay-method-image.text-right {
+    text-align: right;
+}
+
+.pay-method {
+    overflow: hidden;
+    border-top: 1px dashed white;
+    padding-top: 10px;
+    margin-top: 10px;
+}
